@@ -1,0 +1,36 @@
+<div class="row m-3">
+  <div class="col-md-12">
+    <strong>pluck</strong>
+    <hr>
+
+    <div class="row">
+      <div class="col-md-4 border">
+        <strong>Ex - 01</strong>
+        <hr>
+        <p class="border rounded bg-light p-2"><strong>Pluck : </strong> By property</p>
+        <table>
+          <tr>
+            <th>Name </th>
+          </tr>
+          <tr *ngFor="let d of data">
+            <td>{{d}}</td>
+          </tr>
+        </table>
+      </div>
+      <div class="col-md-4 border">
+        <strong>Ex - 02</strong>
+        <hr>
+        <p class="border rounded bg-light p-2"><strong>Pluck : </strong> By nested property</p>
+        <table>
+          <tr>
+            <th>Job Title </th>
+          </tr>
+          <tr *ngFor="let d of data2">
+            <td>{{d}}</td>
+          </tr>
+        </table>
+      </div>
+
+    </div>
+  </div>
+</div>
